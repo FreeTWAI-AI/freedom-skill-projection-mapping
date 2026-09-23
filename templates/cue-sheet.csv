@@ -1,0 +1,2 @@
+cue_id,surface_id,asset_id,duration_seconds,trigger,operator_role,fallback
+Q1,wall-a,original-grid,30,主持明確示意,播放,切黑場

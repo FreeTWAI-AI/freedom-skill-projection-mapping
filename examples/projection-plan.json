@@ -1,0 +1,33 @@
+{
+  "kind": "projection-mapping",
+  "title": "虛構：單面牆投影練習",
+  "surfaces": [
+    {
+      "id": "wall-a",
+      "width_mm": 3000,
+      "height_mm": 2000
+    }
+  ],
+  "assets": [
+    {
+      "id": "original-grid",
+      "source": "original synthetic grid",
+      "rights": "original",
+      "duration_seconds": 30
+    }
+  ],
+  "cues": [
+    {
+      "id": "Q1",
+      "surface_id": "wall-a",
+      "asset_id": "original-grid",
+      "duration_seconds": 30,
+      "operator_role": "播放",
+      "fallback": "切黑場"
+    }
+  ],
+  "unresolved": [
+    "投影機與現場環境光尚未實測"
+  ],
+  "data_classification": "synthetic"
+}
